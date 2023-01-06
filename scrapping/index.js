@@ -1,4 +1,6 @@
 import * as cheerio from 'cheerio'
+import { writeFile } from 'node:fs/promises'
+import path from 'path'
 
 const URLS = {
   leaderboard: 'https://kingsleague.pro/estadisticas/clasificacion/'
@@ -15,29 +17,36 @@ async function getLeaderBoard () {
   const $rows = $('table tbody tr')
 
   const LEADERBOARD_SELECTORS = {
-    team: '.fs-table-text_3',
-    wins: '.fs-table-text_4',
-    loses: '.fs-table-text_5',
-    scoredGoals: '.fs-table-text_6',
-    concededGoals: '.fs-table-text_7',
-    yellowCards: '.fs-table-text_8',
-    redCards: '.fs-table-text_9'
+    team: { selector: '.fs-table-text_3', typeOf: 'string' },
+    wins: { selector: '.fs-table-text_4', typeOf: 'number' },
+    loses: { selector: '.fs-table-text_5', typeOf: 'number' },
+    scoredGoals: { selector: '.fs-table-text_6', typeOf: 'number' },
+    concededGoals: { selector: '.fs-table-text_7', typeOf: 'number' },
+    yellowCards: { selector: '.fs-table-text_8', typeOf: 'number' },
+    redCards: { selector: '.fs-table-text_9', typeOf: 'number' }
   }
 
-  const cleanText = text => text.replace(/\t|\n|\s:/g, '').replace(/.*:/g, ' ').trim()
+  const cleanText = text => text.replace(/\t|\n|\s:/g, '').replace(/.*:/g, '')
 
-  $rows.each((index, el) => {
-    const leaderBoardEntries = Object.entries(LEADERBOARD_SELECTORS).map(([key, selector]) => {
+  const leaderBoardSelectorEntries = Object.entries(LEADERBOARD_SELECTORS)
+
+  const leaderBoard = []
+  $rows.each((_, el) => {
+    const leaderBoardEntries = leaderBoardSelectorEntries.map(([key, { selector, typeOf }]) => {
       const rawValue = $(el).find(selector).text()
-      const value = cleanText(rawValue)
+      const cleanValue = cleanText(rawValue)
+      const value = typeOf === 'number' ? Number(cleanValue) : cleanValue
       return [key, value]
     })
 
-    console.log(Object.fromEntries(leaderBoardEntries))
+    leaderBoard.push(Object.fromEntries(leaderBoardEntries))
   })
+  return leaderBoard
 }
 
-await getLeaderBoard()
+const leaderBoard = await getLeaderBoard()
+const filePath = path.join(process.cwd(), './db/leaderboard.json')
+await writeFile(filePath, JSON.stringify(leaderBoard, null, 2), 'utf-8')
 
 // const leaderboard = [{
 //   team: 'Team 1',
