@@ -1,0 +1,74 @@
+[
+  {
+    "id": "iker-casillas",
+    "name": "Iker Casillas",
+    "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/1k.png",
+    "teamId": "1k"
+  },
+  {
+    "id": "thegrefg",
+    "name": "TheGrefg",
+    "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/saiyans-fc.png",
+    "teamId": "saiyans-fc"
+  },
+  {
+    "id": "kun-agüero",
+    "name": "Kun Agüero",
+    "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/kunisports.png",
+    "teamId": "kunisports"
+  },
+  {
+    "id": "perxitaa",
+    "name": "Perxitaa",
+    "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/los-troncos-fc.png",
+    "teamId": "los-troncos-fc"
+  },
+  {
+    "id": "djmariio",
+    "name": "DjMaRiiO",
+    "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/ultimate-mostoles.png",
+    "teamId": "ultimate-mostoles"
+  },
+  {
+    "id": "ibai-llanos",
+    "name": "Ibai Llanos",
+    "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/porcinos-fc.png",
+    "teamId": "porcinos-fc"
+  },
+  {
+    "id": "adri-contreras",
+    "name": "Adri Contreras",
+    "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/el-barrio.png",
+    "teamId": "el-barrio"
+  },
+  {
+    "id": "spursito",
+    "name": "Spursito",
+    "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/rayo-barcelona.png",
+    "teamId": "rayo-barcelona"
+  },
+  {
+    "id": "juan-guarnizo",
+    "name": "Juan Guarnizo",
+    "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/aniquiladores-fc.png",
+    "teamId": "aniquiladores-fc"
+  },
+  {
+    "id": "hnos-buyer",
+    "name": "Hnos. Buyer",
+    "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/xbuyer-team.png",
+    "teamId": "xbuyer-team"
+  },
+  {
+    "id": "gerard-romero",
+    "name": "Gerard Romero",
+    "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/jijantes-fc.png",
+    "teamId": "jijantes-fc"
+  },
+  {
+    "id": "rivers",
+    "name": "Rivers",
+    "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/pio-fc.png",
+    "teamId": "pio-fc"
+  }
+]

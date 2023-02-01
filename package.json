@@ -17,8 +17,9 @@
     "hono": "2.7.1"
   },
   "devDependencies": {
-    "standard": "^17.0.0",
-    "vitest": "^0.26.3",
+    "axios": "^1.2.4",
+    "standard": "17.0.0",
+    "vitest": "0.26.3",
     "wrangler": "2.6.2"
   },
   "eslintConfig": {

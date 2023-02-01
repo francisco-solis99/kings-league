@@ -1,3 +1,7 @@
 name = "kings-league-api"
 main = "api/index.js"
-compatibility_date = "2023-01-06"
+compatibility_date = "2023-01-07"
+
+
+[site]
+bucket = "./assets"
