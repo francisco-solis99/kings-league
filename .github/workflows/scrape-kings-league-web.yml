@@ -1,12 +1,15 @@
-name: Screape Kings League Website
+name: Scrape Kings League Website
 
 on:
+  #Button in GitHub Action
   workflow_dispatch:
-  
+
+  # Do it by a URL
   repository_dispatch:
     types:
       - webhook
-      
+
+  # CronJob every hour on sunday
   schedule:
     - cron: "0 */1 * * 0"
 
@@ -16,7 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          fetch-depth: 0 
+          fetch-depth: 0
       - uses: actions/setup-node@v3
         with:
           node-version: 18
@@ -25,6 +28,7 @@ jobs:
       - uses: pnpm/action-setup@v2
         with:
           version: 7.18.2
+          run_install: true
       - run: |
           node scraping/leaderboard.js
           git config user.name kings-league-bot
