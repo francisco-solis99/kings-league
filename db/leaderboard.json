@@ -15,10 +15,10 @@
         "teamId": "saiyans-fc"
       }
     },
-    "wins": 4,
+    "wins": 5,
     "loses": 1,
-    "scoredGoals": 12,
-    "concededGoals": 5,
+    "scoredGoals": 14,
+    "concededGoals": 7,
     "yellowCards": 6,
     "redCards": 1
   },
@@ -38,10 +38,10 @@
         "teamId": "porcinos-fc"
       }
     },
-    "wins": 4,
+    "wins": 0,
     "loses": 1,
-    "scoredGoals": 18,
-    "concededGoals": 12,
+    "scoredGoals": 22,
+    "concededGoals": 15,
     "yellowCards": 1,
     "redCards": 0
   },
@@ -63,10 +63,33 @@
     },
     "wins": 4,
     "loses": 1,
-    "scoredGoals": 10,
-    "concededGoals": 6,
+    "scoredGoals": 13,
+    "concededGoals": 8,
     "yellowCards": 6,
     "redCards": 0
+  },
+  {
+    "team": {
+      "id": "los-troncos-fc",
+      "name": "Los Troncos FC",
+      "image": "/los-troncos.png",
+      "channel": "channel link",
+      "coach": "",
+      "socialNetworks": [],
+      "players": [],
+      "president": {
+        "id": "perxitaa",
+        "name": "Perxitaa",
+        "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/los-troncos-fc.png",
+        "teamId": "los-troncos-fc"
+      }
+    },
+    "wins": 1,
+    "loses": 3,
+    "scoredGoals": 15,
+    "concededGoals": 25,
+    "yellowCards": 2,
+    "redCards": 1
   },
   {
     "team": {
@@ -84,10 +107,10 @@
         "teamId": "ultimate-mostoles"
       }
     },
-    "wins": 3,
+    "wins": 0,
     "loses": 2,
-    "scoredGoals": 15,
-    "concededGoals": 12,
+    "scoredGoals": 18,
+    "concededGoals": 14,
     "yellowCards": 1,
     "redCards": 0
   },
@@ -108,9 +131,9 @@
       }
     },
     "wins": 3,
-    "loses": 2,
-    "scoredGoals": 16,
-    "concededGoals": 15,
+    "loses": 3,
+    "scoredGoals": 18,
+    "concededGoals": 17,
     "yellowCards": 1,
     "redCards": 0
   },
@@ -131,8 +154,8 @@
       }
     },
     "wins": 3,
-    "loses": 2,
-    "scoredGoals": 15,
+    "loses": 3,
+    "scoredGoals": 14,
     "concededGoals": 15,
     "yellowCards": 1,
     "redCards": 0
@@ -154,9 +177,9 @@
       }
     },
     "wins": 3,
-    "loses": 2,
-    "scoredGoals": 11,
-    "concededGoals": 12,
+    "loses": 3,
+    "scoredGoals": 14,
+    "concededGoals": 16,
     "yellowCards": 3,
     "redCards": 0
   },
@@ -177,9 +200,9 @@
       }
     },
     "wins": 2,
-    "loses": 3,
-    "scoredGoals": 13,
-    "concededGoals": 10,
+    "loses": 4,
+    "scoredGoals": 16,
+    "concededGoals": 13,
     "yellowCards": 2,
     "redCards": 0
   },
@@ -200,34 +223,11 @@
       }
     },
     "wins": 2,
-    "loses": 3,
+    "loses": -2,
     "scoredGoals": 15,
-    "concededGoals": 18,
+    "concededGoals": 21,
     "yellowCards": 1,
     "redCards": 0
-  },
-  {
-    "team": {
-      "id": "los-troncos-fc",
-      "name": "Los Troncos FC",
-      "image": "/los-troncos.png",
-      "channel": "channel link",
-      "coach": "",
-      "socialNetworks": [],
-      "players": [],
-      "president": {
-        "id": "perxitaa",
-        "name": "Perxitaa",
-        "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/los-troncos-fc.png",
-        "teamId": "los-troncos-fc"
-      }
-    },
-    "wins": 2,
-    "loses": 3,
-    "scoredGoals": 17,
-    "concededGoals": 22,
-    "yellowCards": 2,
-    "redCards": 1
   },
   {
     "team": {
@@ -245,9 +245,9 @@
         "teamId": "pio-fc"
       }
     },
-    "wins": 0,
+    "wins": 1,
     "loses": 5,
-    "scoredGoals": 9,
+    "scoredGoals": 14,
     "concededGoals": 16,
     "yellowCards": 5,
     "redCards": 0
@@ -269,9 +269,9 @@
       }
     },
     "wins": 0,
-    "loses": 5,
+    "loses": 2,
     "scoredGoals": 11,
-    "concededGoals": 19,
+    "concededGoals": 24,
     "yellowCards": 3,
     "redCards": 0
   }
