@@ -1,29 +1,6 @@
 [
   {
     "team": {
-      "id": "saiyans-fc",
-      "name": "Saiyans FC",
-      "image": "/saiyans-fc .svg",
-      "channel": "channel link",
-      "coach": "",
-      "socialNetworks": [],
-      "players": [],
-      "president": {
-        "id": "thegrefg",
-        "name": "TheGrefg",
-        "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/saiyans-fc.png",
-        "teamId": "saiyans-fc"
-      }
-    },
-    "wins": 5,
-    "loses": 1,
-    "scoredGoals": 14,
-    "concededGoals": 7,
-    "yellowCards": 3,
-    "redCards": 1
-  },
-  {
-    "team": {
       "id": "porcinos-fc",
       "name": "Porcinos FC",
       "image": "/porcinos-fc.svg",
@@ -38,10 +15,56 @@
         "teamId": "porcinos-fc"
       }
     },
-    "wins": 5,
+    "wins": 6,
     "loses": 1,
+    "scoredGoals": 27,
+    "concededGoals": 17,
+    "yellowCards": 1,
+    "redCards": 0
+  },
+  {
+    "team": {
+      "id": "saiyans-fc",
+      "name": "Saiyans FC",
+      "image": "/saiyans-fc .svg",
+      "channel": "channel link",
+      "coach": "",
+      "socialNetworks": [],
+      "players": [],
+      "president": {
+        "id": "thegrefg",
+        "name": "TheGrefg",
+        "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/saiyans-fc.png",
+        "teamId": "saiyans-fc"
+      }
+    },
+    "wins": 6,
+    "loses": 1,
+    "scoredGoals": 15,
+    "concededGoals": 7,
+    "yellowCards": 3,
+    "redCards": 1
+  },
+  {
+    "team": {
+      "id": "ultimate-mostoles",
+      "name": "Ultimate Móstoles",
+      "image": "/ultimate-mostoles.svg",
+      "channel": "channel link",
+      "coach": "",
+      "socialNetworks": [],
+      "players": [],
+      "president": {
+        "id": "djmariio",
+        "name": "DjMaRiiO",
+        "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/ultimate-mostoles.png",
+        "teamId": "ultimate-mostoles"
+      }
+    },
+    "wins": 5,
+    "loses": 2,
     "scoredGoals": 22,
-    "concededGoals": 15,
+    "concededGoals": 17,
     "yellowCards": 1,
     "redCards": 0
   },
@@ -62,32 +85,32 @@
       }
     },
     "wins": 5,
-    "loses": 1,
-    "scoredGoals": 13,
-    "concededGoals": 8,
+    "loses": 2,
+    "scoredGoals": 15,
+    "concededGoals": 14,
     "yellowCards": 2,
     "redCards": 0
   },
   {
     "team": {
-      "id": "ultimate-mostoles",
-      "name": "Ultimate Móstoles",
-      "image": "/ultimate-mostoles.svg",
+      "id": "el-barrio",
+      "name": "El Barrio",
+      "image": "/el-barrio.svg",
       "channel": "channel link",
       "coach": "",
       "socialNetworks": [],
       "players": [],
       "president": {
-        "id": "djmariio",
-        "name": "DjMaRiiO",
-        "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/ultimate-mostoles.png",
-        "teamId": "ultimate-mostoles"
+        "id": "adri-contreras",
+        "name": "Adri Contreras",
+        "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/el-barrio.png",
+        "teamId": "el-barrio"
       }
     },
-    "wins": 4,
-    "loses": 2,
-    "scoredGoals": 18,
-    "concededGoals": 14,
+    "wins": 3,
+    "loses": 4,
+    "scoredGoals": 22,
+    "concededGoals": 15,
     "yellowCards": 1,
     "redCards": 0
   },
@@ -108,9 +131,9 @@
       }
     },
     "wins": 3,
-    "loses": 3,
-    "scoredGoals": 18,
-    "concededGoals": 17,
+    "loses": 4,
+    "scoredGoals": 20,
+    "concededGoals": 22,
     "yellowCards": 0,
     "redCards": 0
   },
@@ -131,10 +154,33 @@
       }
     },
     "wins": 3,
-    "loses": 3,
-    "scoredGoals": 17,
-    "concededGoals": 18,
+    "loses": 4,
+    "scoredGoals": 19,
+    "concededGoals": 21,
     "yellowCards": 1,
+    "redCards": 0
+  },
+  {
+    "team": {
+      "id": "rayo-barcelona",
+      "name": "Rayo de Barcelona",
+      "image": "/rayo-barcelona.svg",
+      "channel": "channel link",
+      "coach": "",
+      "socialNetworks": [],
+      "players": [],
+      "president": {
+        "id": "spursito",
+        "name": "Spursito",
+        "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/rayo-barcelona.png",
+        "teamId": "rayo-barcelona"
+      }
+    },
+    "wins": 3,
+    "loses": 4,
+    "scoredGoals": 20,
+    "concededGoals": 23,
+    "yellowCards": 0,
     "redCards": 0
   },
   {
@@ -154,9 +200,9 @@
       }
     },
     "wins": 3,
-    "loses": 3,
-    "scoredGoals": 14,
-    "concededGoals": 16,
+    "loses": 4,
+    "scoredGoals": 16,
+    "concededGoals": 21,
     "yellowCards": 3,
     "redCards": 0
   },
@@ -177,57 +223,11 @@
       }
     },
     "wins": 3,
-    "loses": 3,
+    "loses": 4,
     "scoredGoals": 20,
-    "concededGoals": 25,
+    "concededGoals": 26,
     "yellowCards": 2,
     "redCards": 1
-  },
-  {
-    "team": {
-      "id": "el-barrio",
-      "name": "El Barrio",
-      "image": "/el-barrio.svg",
-      "channel": "channel link",
-      "coach": "",
-      "socialNetworks": [],
-      "players": [],
-      "president": {
-        "id": "adri-contreras",
-        "name": "Adri Contreras",
-        "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/el-barrio.png",
-        "teamId": "el-barrio"
-      }
-    },
-    "wins": 2,
-    "loses": 4,
-    "scoredGoals": 16,
-    "concededGoals": 13,
-    "yellowCards": 1,
-    "redCards": 0
-  },
-  {
-    "team": {
-      "id": "rayo-barcelona",
-      "name": "Rayo de Barcelona",
-      "image": "/rayo-barcelona.svg",
-      "channel": "channel link",
-      "coach": "",
-      "socialNetworks": [],
-      "players": [],
-      "president": {
-        "id": "spursito",
-        "name": "Spursito",
-        "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/rayo-barcelona.png",
-        "teamId": "rayo-barcelona"
-      }
-    },
-    "wins": 2,
-    "loses": 4,
-    "scoredGoals": 17,
-    "concededGoals": 21,
-    "yellowCards": 0,
-    "redCards": 0
   },
   {
     "team": {
@@ -245,10 +245,10 @@
         "teamId": "pio-fc"
       }
     },
-    "wins": 1,
+    "wins": 2,
     "loses": 5,
-    "scoredGoals": 14,
-    "concededGoals": 16,
+    "scoredGoals": 19,
+    "concededGoals": 18,
     "yellowCards": 4,
     "redCards": 0
   },
@@ -269,9 +269,9 @@
       }
     },
     "wins": 0,
-    "loses": 6,
-    "scoredGoals": 11,
-    "concededGoals": 24,
+    "loses": 7,
+    "scoredGoals": 14,
+    "concededGoals": 28,
     "yellowCards": 2,
     "redCards": 0
   }
