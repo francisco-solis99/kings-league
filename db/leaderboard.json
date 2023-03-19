@@ -1,29 +1,6 @@
 [
   {
     "team": {
-      "id": "saiyans-fc",
-      "name": "Saiyans FC",
-      "image": "/saiyans-fc .svg",
-      "channel": "channel link",
-      "coach": "",
-      "socialNetworks": [],
-      "players": [],
-      "president": {
-        "id": "thegrefg",
-        "name": "TheGrefg",
-        "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/saiyans-fc.png",
-        "teamId": "saiyans-fc"
-      }
-    },
-    "wins": 0,
-    "loses": 0,
-    "scoredGoals": 0,
-    "concededGoals": 0,
-    "yellowCards": 0,
-    "redCards": 0
-  },
-  {
-    "team": {
       "id": "ultimate-mostoles",
       "name": "Ultimate Móstoles",
       "image": "/ultimate-mostoles.svg",
@@ -70,52 +47,6 @@
   },
   {
     "team": {
-      "id": "kunisports",
-      "name": "Kunisports",
-      "image": "/kunisports.svg",
-      "channel": "channel link",
-      "coach": "",
-      "socialNetworks": [],
-      "players": [],
-      "president": {
-        "id": "kun-agüero",
-        "name": "Kun Agüero",
-        "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/kunisports.png",
-        "teamId": "kunisports"
-      }
-    },
-    "wins": 0,
-    "loses": 0,
-    "scoredGoals": 0,
-    "concededGoals": 0,
-    "yellowCards": 0,
-    "redCards": 0
-  },
-  {
-    "team": {
-      "id": "el-barrio",
-      "name": "El Barrio",
-      "image": "/el-barrio.svg",
-      "channel": "channel link",
-      "coach": "",
-      "socialNetworks": [],
-      "players": [],
-      "president": {
-        "id": "adri-contreras",
-        "name": "Adri Contreras",
-        "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/el-barrio.png",
-        "teamId": "el-barrio"
-      }
-    },
-    "wins": 0,
-    "loses": 0,
-    "scoredGoals": 0,
-    "concededGoals": 0,
-    "yellowCards": 0,
-    "redCards": 0
-  },
-  {
-    "team": {
       "id": "los-troncos-fc",
       "name": "Los Troncos FC",
       "image": "/los-troncos.png",
@@ -139,6 +70,52 @@
   },
   {
     "team": {
+      "id": "saiyans-fc",
+      "name": "Saiyans FC",
+      "image": "/saiyans-fc .svg",
+      "channel": "channel link",
+      "coach": "",
+      "socialNetworks": [],
+      "players": [],
+      "president": {
+        "id": "thegrefg",
+        "name": "TheGrefg",
+        "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/saiyans-fc.png",
+        "teamId": "saiyans-fc"
+      }
+    },
+    "wins": 0,
+    "loses": 0,
+    "scoredGoals": 0,
+    "concededGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0
+  },
+  {
+    "team": {
+      "id": "kunisports",
+      "name": "Kunisports",
+      "image": "/kunisports.svg",
+      "channel": "channel link",
+      "coach": "",
+      "socialNetworks": [],
+      "players": [],
+      "president": {
+        "id": "kun-agüero",
+        "name": "Kun Agüero",
+        "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/kunisports.png",
+        "teamId": "kunisports"
+      }
+    },
+    "wins": 0,
+    "loses": 0,
+    "scoredGoals": 0,
+    "concededGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0
+  },
+  {
+    "team": {
       "id": "xbuyer-team",
       "name": "XBUYER TEAM",
       "image": "/xbuyer.svg",
@@ -151,6 +128,29 @@
         "name": "Hnos. Buyer",
         "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/xbuyer-team.png",
         "teamId": "xbuyer-team"
+      }
+    },
+    "wins": 0,
+    "loses": 0,
+    "scoredGoals": 0,
+    "concededGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0
+  },
+  {
+    "team": {
+      "id": "el-barrio",
+      "name": "El Barrio",
+      "image": "/el-barrio.svg",
+      "channel": "channel link",
+      "coach": "",
+      "socialNetworks": [],
+      "players": [],
+      "president": {
+        "id": "adri-contreras",
+        "name": "Adri Contreras",
+        "image": "https://kings-league-api.franciscosoliscss.workers.dev/static/presidents/el-barrio.png",
+        "teamId": "el-barrio"
       }
     },
     "wins": 0,
